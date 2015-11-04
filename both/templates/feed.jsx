@@ -18,11 +18,8 @@ Feed = React.createClass({
 
 	render() {
 		return (
-			<div>
-				<h1>This is the feed</h1>
-				<ul>
-					{ this.renderItems() }
-				</ul>
+			<div className="feed">
+				{ this.renderItems() }
 			</div>
 		);
 	}
