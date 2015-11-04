@@ -3,6 +3,7 @@ var admin = FlowRouter.group({
 });
 
 FlowRouter.route( '/', {
+	name: 'home',
 	action: function() {
 		ReactLayout.render( MainLayout, {
 			content: <Feed />
